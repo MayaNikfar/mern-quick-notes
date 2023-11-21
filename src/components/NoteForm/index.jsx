@@ -9,8 +9,14 @@ export default function NoteForm ({addNote}) {
     }
     return (
         <form onSubmit={ _handleSubmit }>
-            <textarea value={newNote} onChange={(e) => setNewNote(e.target.value)}></textarea>
-            <button>Add note</button>
+            <label htmlFor="note">
+                Note:
+            </label>
+            <textarea id="note" value={newNote} onChange={(e) => setNewNote(e.target.value)}></textarea>
+            <label htmlFor="add">
+                Add note:
+            </label>
+            <button id="add">Add note</button>
         </form>
     );
 }

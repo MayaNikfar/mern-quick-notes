@@ -14,14 +14,14 @@ export default function NotesList ({notes, deleteNote}) {
             </p>
             <p>
                 { n.text }
-                <button onClick={ () => deleteNote(n._id) }>&times;</button>
+                <button onClick={ () => deleteNote(n._id) } title="Delete note">&times;</button>
             </p>
         </div>
     ));
 
     return (
         <div>
-            <button onClick={ () => setReverse(!reverse) }>
+            <button onClick={ () => setReverse(!reverse) } title="Reverse notes order">
                 ▲ | ▼ 
             </button>
             {
