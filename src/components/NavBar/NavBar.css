@@ -1,0 +1,18 @@
+nav{
+    background-color: rgb(248, 237, 226);
+    padding: 2rem;
+    margin: auto;
+}
+a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 5rem;
+}
+
+span{
+    font-weight: bold;
+    font-size: 18px;
+    
+}

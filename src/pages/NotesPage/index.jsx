@@ -28,7 +28,7 @@ export default function NotesPage() {
     return (
         <>
             <h1>
-                NotesPage
+                Notes Page
                 <NoteForm addNote={ addNote } />
                 <NotesList notes={notes} deleteNote={ deleteNote } />
             </h1>
